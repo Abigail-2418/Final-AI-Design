@@ -3,81 +3,217 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI+Design Studio Command Center</title>
+  <title>AI + Fashion Design — Command Center</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<!--
-  THIS IS YOUR DASHBOARD. GitHub Pages serves this file.
-  Replace the placeholder text below with the real content from your
-  AI+Design Studio Command Center (Canvas: Project 2, Step 2).
-  KEEP OR TRIM: delete any <section> you did not build - all seven or a
-  subset is fine. Beginnings-level content is fine; this is the on-ramp,
-  not Project 5. Make it yours; do not leave it looking like a template.
--->
 <body>
+
   <header class="site-header">
-    <p class="eyebrow">AI + Design Studio &#183; Command Center</p>
-    <h1 id="project-title">Your Project Title</h1>
-    <p class="tagline">One-line summary of what you are investigating &#8212; and your name.</p>
+    <div class="header-inner">
+      <p class="eyebrow">AI + Design Studio · Command Center</p>
+      <h1 id="project-title">Beyond the Screen:<br />Can AI Design Clothes That Fit the Real World?</h1>
+      <p class="tagline">Investigating where generative AI succeeds and fails at physical fashion design — from concept sketch to garment form, structure, and fit.</p>
+      <p class="byline">Abigail Nosov · DESN 368 · Spring 2026</p>
+    </div>
   </header>
 
   <main class="container">
 
     <!-- Project Identity Card -->
-    <section aria-labelledby="identity-h">
+    <section aria-labelledby="identity-h" class="card identity">
       <h2 id="identity-h">Project Identity Card</h2>
-      <p>Title, curiosity statement, short summary, audience / context, and possible final direction(s).</p>
+      <dl>
+        <dt>Project Title</dt>
+        <dd>Beyond the Screen: Can AI Design Clothes That Fit the Real World?</dd>
+        <dt>Curiosity Statement</dt>
+        <dd>Every AI fashion demo lives on a screen — but clothes live on bodies. I want to understand where the gap is, and whether generative tools can actually bridge it.</dd>
+        <dt>Audience / Context</dt>
+        <dd>DESN 368 AI+Design Studio; personal portfolio case study; fashion-tech and design-research audience.</dd>
+        <dt>Possible Final Directions</dt>
+        <dd>(1) A documented design process comparing AI-assisted vs. traditional garment sketching and prototyping; (2) A critical research paper on AI's material blind spot; (3) A hybrid workflow proposal for designers using generative tools in physical product development.</dd>
+      </dl>
     </section>
 
     <!-- Inquiry Brief -->
-    <section aria-labelledby="inquiry-h">
+    <section aria-labelledby="inquiry-h" class="card inquiry">
       <h2 id="inquiry-h">Inquiry Brief</h2>
-      <p>Your research question, why it matters, what you need to learn, and 2&#8211;3 possible final outcomes.</p>
+      <p><strong>Research Question:</strong> How can AI tools meaningfully contribute to the physical fashion design process — from concept to garment — and where do they fundamentally fall short?</p>
+      <p><strong>Why this matters:</strong> Fashion is one of the largest global industries, yet AI's capabilities are overwhelmingly demonstrated in 2D and digital contexts. As generative tools proliferate, understanding their real (not marketed) utility for physical design is critical for designers, educators, and tool-builders.</p>
+      <p><strong>What I need to learn:</strong> How fashion designers currently move from 2D sketch to 3D garment; where AI tools break in that pipeline; what material knowledge AI cannot capture; what designers actually want from AI assistance.</p>
     </section>
 
     <!-- Source Starter List -->
-    <section aria-labelledby="sources-h">
+    <section aria-labelledby="sources-h" class="card sources">
       <h2 id="sources-h">Source Starter List</h2>
       <ul>
-        <li>Source 1 &#8212; title, creator, link, type, why it matters</li>
-        <li>Source 2 &#8212; title, creator, link, type, why it matters</li>
-        <li>Source 3 &#8212; optional</li>
+        <li>
+          <strong>Global Anxiety Is Redesigning Your Clothes</strong>
+          <span class="source-meta">Podcast / Audio — Research source</span>
+          <span class="source-desc">Explores how macro-level anxiety and world events are reshaping fashion silhouettes, fabric choices, and consumer behavior. Informs the cultural context of my design question.</span>
+        </li>
+        <li>
+          <strong>Why AI Fails at Physical Design</strong>
+          <span class="source-meta">Podcast / Audio — Critical analysis</span>
+          <span class="source-desc">Directly addresses the core tension of my project: AI systems generate compelling 2D visuals but lack understanding of physics, material behavior, and ergonomics.</span>
+        </li>
+        <li>
+          <strong>Generative AI Drives Real Fashion Business Value</strong>
+          <span class="source-meta">Podcast / Audio — Industry perspective</span>
+          <span class="source-desc">Case studies of generative AI in fashion retail, supply chain, and trend forecasting. Provides the counterpoint — where AI works today.</span>
+        </li>
+        <li>
+          <strong>Why AI Fails Professional UX Designers</strong>
+          <span class="source-meta">Podcast / Audio — Design critique</span>
+          <span class="source-desc">Examines professional skepticism toward AI tools in design practice. Parallels the fashion-specific resistance I'm investigating.</span>
+        </li>
+        <li>
+          <strong>Milanote Board — Research + Ideation</strong>
+          <span class="source-meta">Milanote · Visual moodboard</span>
+          <span class="source-desc">Curated collection of references, color palettes, silhouette research, and AI tool outputs from my investigation.</span>
+        </li>
       </ul>
     </section>
 
     <!-- Project Brief / Weekly Roadmap -->
-    <section aria-labelledby="roadmap-h">
+    <section aria-labelledby="roadmap-h" class="card roadmap">
       <h2 id="roadmap-h">Project Brief / Weekly Roadmap</h2>
-      <p>Weeks 5&#8211;11: goal, activities, tools, output, and success indicator for each week.</p>
+      <div class="roadmap-grid">
+        <div class="week">
+          <span class="week-label">Week 5</span>
+          <span class="week-goal">Define project scope & initial research question</span>
+          <span class="week-out">Project identity card, source starter list, initial Milanote board</span>
+        </div>
+        <div class="week">
+          <span class="week-label">Week 6</span>
+          <span class="week-goal">Deep research: audio analysis, sketch collection, AI tool testing</span>
+          <span class="week-out">Research notes, CamScanner sketches, tool comparison</span>
+        </div>
+        <div class="week">
+          <span class="week-label">Week 7</span>
+          <span class="week-goal">Design experiments: AI-generated fashion concepts vs. hand-drawn</span>
+          <span class="week-out">Experiment log, prompt library, visual comparison set</span>
+        </div>
+        <div class="week">
+          <span class="week-label">Week 8</span>
+          <span class="week-goal">Progress report & mid-project synthesis</span>
+          <span class="week-out">Canvas progress report, refined inquiry, project direction narrowing</span>
+        </div>
+        <div class="week">
+          <span class="week-label">Week 9</span>
+          <span class="week-goal">Final experiments + prototype direction</span>
+          <span class="week-out">Completed experiment log, selected final direction</span>
+        </div>
+        <div class="week">
+          <span class="week-label">Week 10</span>
+          <span class="week-goal">Portfolio-ready synthesis & final deliverables</span>
+          <span class="week-out">Command center complete, case study draft, final presentation</span>
+        </div>
+        <div class="week">
+          <span class="week-label">Week 11</span>
+          <span class="week-goal">Submission & portfolio publishing</span>
+          <span class="week-out">Live GitHub Pages site, final reflection, submission</span>
+        </div>
+      </div>
     </section>
 
     <!-- Prompt Log -->
-    <section aria-labelledby="prompts-h">
+    <section aria-labelledby="prompts-h" class="card prompts">
       <h2 id="prompts-h">Prompt Log</h2>
-      <p>Each entry: the prompt used, model / tool, output summary, and what changed afterward.</p>
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-tool">ChatGPT-4o · DALL-E 3</span>
+          <span class="log-date">Week 6</span>
+        </div>
+        <p class="log-prompt"><strong>Prompt:</strong> "Generate a fashion sketch of a jacket inspired by deconstructed tailoring and anxiety-driven silhouettes. Show front and back views."</p>
+        <p class="log-result"><strong>Result:</strong> Produced visually striking 2D concept images but with anatomically impossible proportions and no understanding of seam construction or fabric drape. Useful for silhouette exploration only.</p>
+      </div>
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-tool">Midjourney</span>
+          <span class="log-date">Week 6</span>
+        </div>
+        <p class="log-prompt"><strong>Prompt:</strong> "A fashion design moodboard for fall 2026 — oversized silhouettes, textural fabrics, muted earth tones with neon accents, technical sketch style."</p>
+        <p class="log-result"><strong>Result:</strong> Strong moodboard generator; produced cohesive visual themes but lacked specificity for construction. Outputs work as inspiration but not as production-ready flats.</p>
+      </div>
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-tool">ChatGPT-4o</span>
+          <span class="log-date">Week 7</span>
+        </div>
+        <p class="log-prompt"><strong>Prompt:</strong> "Describe how you would construct a draped wool coat based on this sketch. Include seam types, fabric grain direction, and lining requirements."</p>
+        <p class="log-result"><strong>Result:</strong> Generated plausible-sounding construction notes, but on inspection contained fabric recommendations that ignore real-world constraints (e.g., suggested wool-mohair blend for a fully lined coat without mentioning breathability or weight).</p>
+      </div>
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-tool">Claude / Antigravity</span>
+          <span class="log-date">Week 8</span>
+        </div>
+        <p class="log-prompt"><strong>Prompt:</strong> "Organize my fashion design research into a command center page structure. Include identity card, inquiry brief, source list, roadmap, experiment log, and prompt log."</p>
+        <p class="log-result"><strong>Result:</strong> Generated the page structure and organization logic you're viewing now. AI as project architect, not designer — a successful use case.</p>
+      </div>
     </section>
 
     <!-- Experiment Log -->
-    <section aria-labelledby="experiments-h">
+    <section aria-labelledby="experiments-h" class="card experiments">
       <h2 id="experiments-h">Experiment Log</h2>
-      <p>Each experiment: what you tried, notes, what worked, what failed, and the next step.</p>
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-tool">Experiment 1</span>
+          <span class="log-date">Weeks 6-7</span>
+        </div>
+        <p class="log-prompt"><strong>What I tried:</strong> Generated 20 AI fashion concepts, then hand-sketched construction flats for 5 of them.</p>
+        <p class="log-result"><strong>What happened:</strong> AI concepts were striking but impossible to construct without major redesign. The gap between "looks good" and "can be made" is wide. Hand flats revealed structural problems invisible in the AI output.</p>
+        <p class="log-next"><strong>Next step:</strong> Iterate by providing AI with construction constraints (fabric type, weight, seam limits) to see if outputs improve.</p>
+      </div>
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-tool">Experiment 2</span>
+          <span class="log-date">Week 7</span>
+        </div>
+        <p class="log-prompt"><strong>What I tried:</strong> Used AI to generate pattern-making instructions for a simple A-line skirt.</p>
+        <p class="log-result"><strong>Result:</strong> Basic instructions were directionally correct but missing standard seam allowances, grainline markings, and grading information. Usable only by someone who already knows how to make patterns.</p>
+        <p class="log-next"><strong>Next step:</strong> Test with more specific prompting — specify seam allowance, size grading, and fabric type upfront.</p>
+      </div>
+      <div class="log-entry">
+        <div class="log-meta">
+          <span class="log-tool">Experiment 3</span>
+          <span class="log-date">Week 8</span>
+        </div>
+        <p class="log-prompt"><strong>What I tried:</strong> Compared AI moodboard generation (Midjourney) against a curated Milanote board built from real fashion editorial + textile swatches.</p>
+        <p class="log-result"><strong>Result:</strong> AI moodboards are faster and visually cohesive but lack the tactile and contextual depth of curated boards. AI excels at "vibe" but misses material reality.</p>
+        <p class="log-next"><strong>Next step:</strong> Hybrid approach — use AI for initial direction, refine with real materials and sketches.</p>
+      </div>
+    </section>
+
+    <!-- Learning / Reflection -->
+    <section aria-labelledby="learning-h" class="card learning">
+      <h2 id="learning-h">What I Learned</h2>
+      <ul>
+        <li><strong>AI is a moodboard machine, not a pattern cutter.</strong> Its greatest strength is visual inspiration and thematic exploration; its greatest weakness is material and physical understanding.</li>
+        <li><strong>The prompt is a design tool.</strong> The more constraints I gave (fabric type, weight, construction method), the better the output — but the ceiling is low. AI still can't reason about drape, grain, or ergonomics.</li>
+        <li><strong>AI tools revealed my own design knowledge.</strong> I only spotted AI's mistakes in construction because I already understood seams, grainlines, and fabric behavior. The tool tests the designer as much as the designer tests the tool.</li>
+        <li><strong>Hybrid workflows win.</strong> Pure AI or pure traditional both have blind spots. The strongest process uses AI for divergent exploration and traditional methods for convergent construction.</li>
+      </ul>
     </section>
 
     <!-- Links / Workspace Board -->
-    <section aria-labelledby="links-h">
+    <section aria-labelledby="links-h" class="card links">
       <h2 id="links-h">Links / Workspace Board</h2>
       <ul>
-        <li>Milanote / Notion / Figma board</li>
-        <li>AI tools used</li>
-        <li>Repo / site link</li>
-        <li>Working files (Figma, code, assets)</li>
+        <li><a href="#" target="_blank">Milanote Board — Research & Ideation</a> <span class="link-type">Visual moodboard, references, AI outputs</span></li>
+        <li><a href="#" target="_blank">GitHub Repo — Final-AI-Design</a> <span class="link-type">Code, site, handoff notes</span></li>
+        <li><a href="#" target="_blank">GitHub Pages — Live Command Center</a> <span class="link-type">Published site</span></li>
+        <li><span class="link-disabled">CamScanner Sketches · Week 6-8</span> <span class="link-type">Hand-drawn flats, construction notes (local)</span></li>
+        <li><span class="link-disabled">Audio Research Files · Weeks 6-8</span> <span class="link-type">4 interviews/podcasts on AI + fashion/design (local)</span></li>
+        <li><span class="link-disabled">Canvas Progress Reports · Weeks 5-8</span> <span class="link-type">Weekly submissions PDFs (local)</span></li>
       </ul>
     </section>
 
   </main>
 
   <footer class="site-footer">
-    <p>DESN 374 &#183; Command Center &#183; built with the Interview &#8594; Brainstorm &#8594; Plan &#8594; Code &#8594; Commit workflow</p>
+    <p>DESN 368 · AI+Design Studio · Command Center · Built with Interview → Brainstorm → Plan → Code → Commit workflow</p>
+    <p class="footer-edit">Edit at <code>Documents/GitHub/Final-AI-Design/index.html</code></p>
   </footer>
 </body>
 </html>
